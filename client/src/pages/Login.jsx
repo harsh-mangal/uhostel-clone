@@ -1,11 +1,8 @@
 import React from "react";
-import { Navigate, useNavigate } from 'react-router-dom';
-
-
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-
-    const Navigate = useNavigate();
+  const Navigate = useNavigate();
 
   const redirectToHome = () => {
     Navigate("/home");
@@ -13,7 +10,7 @@ const Login = () => {
 
   return (
     <div className="login">
-      <div >
+      <div>
         <h1 className="h1logo">U</h1>
         <h1 className="h1logo2">HOSTEL</h1>
       </div>
@@ -23,7 +20,9 @@ const Login = () => {
           <br />
           <input type="password" placeholder="Password" />
         </form>
-        <button type="" onClick={redirectToHome}>Sign In</button>
+        <button type="" onClick={redirectToHome}>
+          Sign In
+        </button>
         <p>Questions? Email us at uhostel@chitkara.edu.in</p>
       </div>
     </div>
