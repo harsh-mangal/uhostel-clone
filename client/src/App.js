@@ -1,14 +1,16 @@
-
 import './App.css';
-import Navbar from './Components/Navbar';
-import Panel1 from './Components/panel1';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './pages/Login';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Panel1 />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Login />} />
+      </Routes>
+    </Router>
   );
 }
 
