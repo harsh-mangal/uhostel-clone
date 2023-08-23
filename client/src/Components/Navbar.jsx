@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='navbar-brand'>
-            <img src="https://uhostel.chitkara.edu.in/student/images/logo.png" alt="" />
+          <Link to="/home">  <img src="https://uhostel.chitkara.edu.in/student/images/logo.png" alt="" /></Link>
         </div>
         <div className='nav-links'>
             <ul>

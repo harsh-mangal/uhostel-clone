@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Panel2 = () => {
   return (
     <div className='panel2'>
         <div className='cell'>
-            <h4><a href="">Gate Pass</a></h4>
+            <h4><Link to="/gatepass">Gatepass</Link></h4>
             <p>Gate Pass for Students Leave, In & Out Campus Request</p>
         </div>
         <div className='cell'>
@@ -12,7 +12,7 @@ const Panel2 = () => {
             <p>Payment Transaction Receipt</p>
         </div>
         <div className='cell'>
-        <h4><a href="">Non-Disciplinary Action</a></h4>
+        <h4><Link to="/nda" >Non-Disciplinary Action</Link></h4>
             <p>Extra Dues for Non-Disciplinary Action</p>
         </div>
         <div className='cell'>

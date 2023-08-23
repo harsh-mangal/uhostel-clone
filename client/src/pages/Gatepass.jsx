@@ -10,10 +10,13 @@ const Gatepass = () => {
         <div className='panelgp'>
             <h4>Gatepass History</h4>
             <button className='sbphg'>Apply Gatepass</button>
-            <div>
-                
-            </div>
+            
         </div>
+        <div>
+              <div>
+                <h4>Apply Date</h4><span> </span><span>23-Aug-2023</span>
+              </div>
+            </div>
     </div>
   )
 }
