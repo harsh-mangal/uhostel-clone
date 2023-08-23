@@ -265,7 +265,7 @@ code {
 .panelgp{
   background-color: white;
   margin-top: 20px;
-  display: flex;
+  /* display: flex; */
   padding: 20px;
   border-radius: 5px;
   width: 92vw;
@@ -283,13 +283,15 @@ code {
   color: white;
   width : max-content;
   height: 40px;
+  padding-top: 10px;
   /* padding: 20px; */
   font-size: 1rem;
   border-radius: 5px;
   border: none;
   background-color: #DC3545;
-  margin-top: 20px;
+  margin-top: -50px;
   margin-left: auto;
+  display: flex;
 }
 .panelnda{
   background-color: white;
@@ -358,4 +360,9 @@ code {
 }
 .table{
   display: inline !important;
+}
+
+.applygp h4{
+  /* display: inline-block; */
+  color: black;
 }
