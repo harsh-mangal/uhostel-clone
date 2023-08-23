@@ -6,7 +6,8 @@ import Password from './pages/Password';
 import Hostel from './pages/Hostel';
 import Gatepass from './pages/Gatepass';
 import Nda from './pages/Nda';
-
+import Admin from './pages/Admin';
+import Register from './pages/Register';
 function App() {
   return (
     <Router>
@@ -17,6 +18,8 @@ function App() {
         <Route path="/hostelcheckout" element={<Hostel />} />
         <Route path="/gatepass" element={<Gatepass />} />
         <Route path="/nda" element={<Nda />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
